@@ -1,0 +1,690 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Health Lab - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="{% static 'css/pogo-slider.min.css' %}">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/custom.css'%}">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+     <!-- <div id="preloader">
+		<div class="loader">
+			<img src="images/preloader.gif" alt="" />
+		</div>
+    </div>end loader -->
+    <!-- END LOADER -->
+	
+	<!-- Start top bar -->
+	<div class="main-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="left-top">
+						<a class="new-btn-d br-2" href="#"><span>Book Appointment</span></a>
+						<div class="mail-b"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> demo@gmail.com</a></div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="wel-nots">
+						<p>Welcome to Our Health Lab!</p>
+					</div>
+					<div class="right-top">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End top bar -->
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="{% static 'images/logo.png' %}" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#services">Services</a></li>
+						<li><a class="nav-link" href="#appointment">Appointment</a></li>
+						<li><a class="nav-link" href="#team">Doctor</a></li>
+                        <li><a class="nav-link" href="#home_visit">Home_visits</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start Banner -->
+	<!-- Start Banner -->
+	<div class="ulockd-home-slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="pogoSlider" id="js-main-slider">
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url({% static 'images/image12.jpg' %});">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>Welcome to Health Lab</h1>
+						
+								<a href="#" class="btn">Contact Us</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url({% static 'images/img4.webp' %} );">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>We are Expert in The Field of Health Lab</h1>
+								 
+								<a href="#appointment" class="btn">Appointment</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url({% static 'images/img5.jpg' %} );">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>Welcome to Health Lab</h1>
+								 
+								<a href="#" class="btn">Contact Us</a>
+							</div>
+						</div>
+						
+					</div>
+				</div><!-- .pogoSlider -->
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<!-- End Banner -->
+	
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-box">
+							<h2>About Us</h2>
+							<p>Who we are </p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h2> Welcome to Health Lab </h2>
+								<p>The establishment of the health laboratory in 1997 and within 15 years, we became, thank God, one of the best laboratories, as we were distinguished by the extreme accuracy in the results of the analyzes and the speed in delivering the results. </p>
+								<p> The health lab realizes that the accuracy of the diagnosis depends on the accuracy of the lab results, and this is the principle from which we proceeded through the following. </p>
+								<p>-The devices are constantly calibrated to match international quality standards</p>
+								<p>-The best internationally approved solutions are used to ensure the highest accuracy.</p>
+								<p>-Believing in the importance of the human element, the best cadres of doctors, chemists and technicians trained on the latest international systems were selected, following quality systems programs</p>
+								<a href="#" class="new-btn-d br-2">Read More</a>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="about-m">
+									<ul id="banner">
+										<li>
+											<img src="{% static 'images/image13.jpg' %}" alt="">
+										</li>
+										<li>
+											<img src="{% static 'images/img1.webp' %}" alt="">
+										</li>
+										<li>
+											<img src="{% static 'images/gallery-08.jpg' %}" alt="">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	
+	<!-- Start Services -->
+	<div id="services" class="services-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Tests Details</h2>
+						 
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="owl-carousel owl-theme">
+						{% csrf_token %}
+					    {% for t in tests %}
+						    <div class="item">
+							    <div class="serviceBox">
+								    <div class="service-icon"><i class="fa fa-h-square" aria-hidden="true"></i></div>
+								    <h3 class="title"><span style="color:#00cb86"> Name: </span>{{t.name}}</h3>
+								    <h4 class="code"><span style="color:#00cb86"> code: </span>{{t.code}}</h4>
+								    <p class="description"><span style="color:#00cb86"> discription: </span>{{t.discription}}</p>
+								    <p class="description"><span style="color:#00cb86"> perparations: </span>{{t.preparations}}</p>
+								    <a href="#" class="new-btn-d br-2"><span style="color:#00cb86"></span>{{t.price}}l.e</a>
+							    </div>
+						    </div>
+					    {% endfor %}
+				    </div>
+			    </div>
+		    </div>			
+	    </div>
+    </div>
+	<!-- End Services -->
+
+	
+	<!-- Start Appointment -->
+	<div id="appointment" class="appointment-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Appointment</h2>
+						 
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="well-block">
+                        <div class="well-title">
+                            <h2>Book an Appointment</h2>
+                        </div>
+                        <form action="/book" method="post">
+							{% csrf_token %}
+                            <!-- Form start -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="name">Name</label>
+                                        <input id="name" name="f_name" type="text" placeholder="Name" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input id="email" name="f_email" type="text" placeholder="E-Mail" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="date">Preferred Date</label>
+                                        <input id="date" name="f_date" type="text" placeholder="Preferred Date" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="time">Preferred Time</label>
+                                        <select id="time" name="f_time" class="form-control">
+                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
+                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
+                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="appointmentfor">Department</label>
+                                        <select id="appointmentfor" name="f_appointmentfor" class="form-control">
+                                            <option value="Choose Department">Choose Department</option>
+											<option value="Gynacology">Gynacology</option>
+											<option value="Dermatologist">Dermatologist</option>
+											<option value="Orthology">Orthology</option>
+											<option value="Anesthesiology">Anesthesiology</option>
+											<option value="Ayurvedic">Ayurvedic</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button id="singlebutton" name="singlebutton" class="new-btn-d br-2">Make An Appointment</button>
+                                    </div>
+                                </div>
+								<h1>{{outpot}}</h1>
+                            </div>
+                        </form>
+                        <!-- form end -->
+                    </div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="well-block">
+                        <div class="well-title">
+                            <h2>Why Appointment with Us</h2>
+                        </div>
+                        <div class="feature-block">
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">24/7 Hours Available</h4>
+                                <div class="feature-content">
+                                    <p> Health lab services are available 24 hours throughout the week , the health lab is with you at any time . </p>
+
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Experienced Staff Available</h4>
+                                <div class="feature-content">
+                                    <p>Laboratory staff consists of a group of university professors who specialize in different areas of analysis, led by Prof. Dr. Sana Abdul Shafi famous of their standard scientific high has published many international medical articles in the field of analyzes aimed at raising the level of medical science analysis .</p>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Low Price & Fees</h4>
+                                <div class="feature-content">
+                                    <p> The health lap displays lots of offers and low prices .</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	    
+	<!-- End Appointment -->
+	
+
+
+		
+	<!-- Start Team -->
+	<div id="team" class="team-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Our medical analysis specialists </h2>
+						<p> </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="{% static 'images/img24.jpg' %}" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title"></h3>
+                            <span class="post"></span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="{% static 'images/img-2.jpg' %}" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title"></h3>
+                            <span class="post"></span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="{% static 'images/img23.jpg' %}" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title"></h3>
+                            <span class="post"></span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+		</div>
+	</div>
+	
+	<!-- End Team -->
+	
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-box">
+							<h2>Home visites</h2>
+							<p>be save in your home</p>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h1> Welcome to Home visites services  </h1>
+								
+						
+							</div>
+							<section id="feature">
+								<div class="container">
+									 <div class="row">
+					  
+										  <div class="col-md-4 col-sm-4">
+											   <div class="feature-thumb">
+												<h1 class="title"><span style="color:#00cb86"> 1: Available 24 Hours !!  </span></h1>
+													
+													<p>No matter where you live in beni_suef  our specializes  are working around the clock to provide you with dedicated home </p>
+											   </div>
+										  </div>
+					  
+										  <div class="col-md-4 col-sm-4">
+											   <div class="feature-thumb">
+												<h3 class="title"><span style="color:#00cb86"> 2 : Home visit services anytime wherever you are </span></h3>
+													
+													<p>visit services within 2 hours of your call</p>
+											   </div>
+										  </div>
+					  
+										  <div class="col-md-4 col-sm-4">
+											   <div class="feature-thumb">
+												<h3 class="title"><span style="color:#00cb86"> 3 :call us and we will visit you wherever you are </span></h3>
+													
+													<p>You can stay at home and someone specialies will visit you,just call us or appointment via </p>
+											   </div>
+										  </div>
+					  
+									 </div>
+								</div>
+						   </section>
+							<div id="team" class="team-box">
+							
+									<div class="row">
+										<div class="col-md-4 col-sm-6">
+											<div class="our-team">
+												<div class="pic">
+													<img src="{% static 'images/img20.webp' %}" alt="">
+												</div>
+												<div class="team-content">
+													<h3 class="title"></h3>
+													<span class="post"></span>
+													<ul class="social">
+														<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+						
+										<div class="col-md-4 col-sm-6">
+											<div class="our-team">
+												<div class="pic">
+													<img src="{% static 'images/image1.jpg' %}" alt="">
+												</div>
+												<div class="team-content">
+													<h3 class="title"></h3>
+													<span class="post"></span>
+													<ul class="social">
+														<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+						
+										<div class="col-md-4 col-sm-6">
+											<div class="our-team">
+												<div class="pic">
+													<img src="{% static 'images/image.jpg' %}" alt="">
+												</div>
+												<div class="team-content">
+													<h3 class="title"></h3>
+													<span class="post"></span>
+													<ul class="social">
+														<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+							
+	<!-- End About us -->
+	
+	
+	<!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Contact us</h2>
+					
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-lg-12 col-xs-12">
+				  <div class="contact-block">
+					<form id="contactForm">
+					  <div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+								<div class="help-block with-errors"></div>
+							</div>                                 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="text" placeholder="Your number" id="number" class="form-control" name="number" required data-error="Please enter your number">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group"> 
+								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="submit-button text-center">
+								<button class="btn btn-common" id="submit" type="submit">Send Message</button>
+								<div id="msgSubmit" class="h3 text-center hidden"></div> 
+								<div class="clearfix"></div> 
+							</div>
+						</div>
+					  </div>            
+					</form>
+				  </div>
+				</div>
+				
+				
+				<div class="col-lg-12 col-xs-12">
+					<div class="left-contact">
+						<h2>Address</h2>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-location-arrow" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Address</h4>
+								<p>41 Al-Abasiri Street ,Beni Suef</p>
+							</div>
+						</div>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Email</h4>
+								<a href="#">healthlab@gmail.com</a><br>
+								<a href="#">HealthIB@gmail.com</a>
+							</div>
+						</div>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Phone Number</h4>
+								<a href="#">12345 67890</a><br>
+								<a href="#">12345 67890</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+	
+	<!-- Start Subscribe -->
+	<div class="subscribe-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="subscribe-inner text-center clearfix">
+						<h2>Subscribe</h2>
+						<p> If you want to become one of the clients and subscribers</p>
+						<p>just send your email </p>
+						<form action="#" method="post">
+							<div class="form-group">
+								<input class="form-control-1" id="email-1" name="email" placeholder="Email Address" required="" type="text">
+							</div>
+							<div class="form-group">
+								<button type="submit" class="new-btn-d br-2">
+									Subscribe
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Subscribe -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Health Lab</a> Design By : <a href="https://html.design/">html design</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="scroll-to-top" class="new-btn-d br-2"><i class="fa fa-angle-up"></i></a>
+
+	<!-- ALL JS FILES -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- ALL PLUGINS -->
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/jquery.pogo-slider.min.js' %}"></script> 
+	<script src="{% static 'js/slider-index.js' %}"></script>
+	<script src="{% static 'js/smoothscroll.js' %}"></script>
+	<script src="{% static 'js/TweenMax.min.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'js/form-validator.min.js' %}"></script>
+    <script src="{% static 'js/contact-form-script.js' %}"></script>
+	<script src="{% static 'js/isotope.min.js' %}"></script>	
+	<script src="{% static 'js/images-loded.min.js' %}"></script>	
+    <script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>
