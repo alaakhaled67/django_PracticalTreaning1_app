@@ -1,6 +1,3 @@
-from ast import mod
-from msilib.schema import Signature
-from pickle import TRUE
 from django.db import models
 department_CHOICES = (
     ('Gynacology','Gynacology'),
@@ -17,7 +14,7 @@ time_CHOICES = (
 
 # Create your models here.
 class Patient(models.Model):
-    Id = models.CharField(max_length=10, primary_key=TRUE,auto_created=True)
+    Id = models.CharField(max_length=10, primary_key=True,auto_created=True)
     UserName = models.CharField(max_length=200 ,null=True)
     Password = models.CharField(max_length=100 ,null=True)
     Phone = models.IntegerField()
@@ -32,7 +29,7 @@ class Patient(models.Model):
 
 
 class Charges(models.Model):
-   CH_id = models.CharField(max_length=10, primary_key=TRUE)
+   CH_id = models.CharField(max_length=10, primary_key=True)
    Name =   models.CharField(max_length=200 ,null=True)
    Amount =   models.CharField(max_length=200 ,null=True)
    Description = models.TextField(null=True)
@@ -44,7 +41,7 @@ class Charges(models.Model):
 
 
 class MedicalSpecialistes(models.Model): 
-    Sid = models.CharField(max_length=10, primary_key=TRUE)
+    Sid = models.CharField(max_length=10, primary_key=True)
     Sname = models.CharField(max_length=200 ,null=True)
     Spassword = models.CharField(max_length=100 ,null=True)
     Sphone = models.IntegerField()
@@ -56,7 +53,7 @@ class MedicalSpecialistes(models.Model):
          return self.Sid
 
 class test(models.Model): 
-    name = models.CharField(max_length=200 ,primary_key=TRUE)
+    name = models.CharField(max_length=200 ,primary_key=True)
     code = models.IntegerField()
     discription = models.TextField(max_length=300 ,null=True)
     preparations = models.CharField(max_length=200 ,null=True)
